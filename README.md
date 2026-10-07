@@ -68,9 +68,10 @@ The browser suite covers the mobile shell, offline reload, installability checks
 
 ## Architecture
 
-- `plan.md` — product vision
-- `Step.md` — approved phased implementation plan
-- `Decisions.md` — Phase 0 financial contracts and worked examples
+- `doc/plan.md` — product vision
+- `doc/Step.md` — approved phased implementation plan
+- `doc/Decisions.md` — Phase 0 financial contracts and worked examples
+- `doc/guide.md` — user guide, customization guide and first-month testing checklist
 - `src/db/database.ts` — Dexie/IndexedDB source of truth
 - `src/db/schema.ts` — Zod persistence schemas
 - `src/features/ledger/` — shared balance and report selectors
